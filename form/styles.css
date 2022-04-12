@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.merch-form-wrapper {
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.merch-form-header {
+  margin: 10px 0px;
+}
+.merch-form-container {
+  width: 100%;
+}
+.merch-form-element-container {
+  display: flex;
+  flex-direction: column;
+}
+.merch-form-element {
+  width: 100%;
+  margin: 10px;
+}
+.merch-form-element label {
+  display: inline-block;
+  margin: 5px auto;
+  font-size: 1rem;
+  width: 40%;
+}
+.merch-form-element input,
+.merch-form-element select {
+  height: 35px;
+  width: 50%;
+  box-shadow: 2px 2px 6px 1px #e6d3d4;
+  outline: none;
+  border: 1px solid #fff;
+  padding: 5px;
+}
+#merch-checkbox input {
+  width: 10px;
+  display: inline-block;
+  box-shadow: none;
+  height: auto;
+}
+#merch-checkbox label {
+  width: 90%;
+}
+
+@media screen and (min-width: 820px) {
+  .merch-form-element-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .merch-form-element {
+    width: 45%;
+    margin-top: 0px;
+  }
+  .merch-form-element label {
+    display: block;
+    width: 100%;
+  }
+  .merch-form-element input,
+  .merch-form-element select {
+    width: 90%;
+    padding: 20px 15px;
+  }
+  #merch-additional,
+  #merch-checkbox {
+    width: 100%;
+  }
+  #merch-additional input {
+    width: 88%;
+  }
+  #merch-checkbox input {
+    display: inline-block;
+    box-shadow: none;
+    width: 20px;
+    height: 15px;
+  }
+  #merch-checkbox label {
+    display: inline;
+    width: 50%;
+    height: 2rem;
+  }
+  #merch-submit {
+    width: 100%;
+    text-align: center;
+  }
+  input[name='merchSubmit'] {
+    width: 100px;
+    height: 50px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #7f132b;
+    color: #fff;
+    padding: 5px;
+    margin: 0 auto;
+  }
+}
