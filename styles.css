@@ -88,22 +88,32 @@ tr {
   padding: 10px 10px;
 }
 
-@media screen and (min-width: 750px) and (max-width: 899px) {
+@media screen and (min-width: 768px) and (max-width: 899px) {
   .merch-card-container {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
   }
   .merch-card-img {
-    width: 40%;
+    width: 340px;
     margin: 0;
   }
   .merch-card-content-header h1 {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
+    margin-top: 0px;
   }
   .merch-card-content-header h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 10px;
+  }
+  .merch-price span {
+    font-size: 1.8rem;
+  }
+  .prod-desc-table-cont {
+    width: 100%;
+  }
+  .prod-desc-table-cont table {
+    width: 100%;
   }
 }
 
@@ -135,29 +145,36 @@ tr {
   }
   .merch-card-img {
     margin: 0;
-    width: 35%;
+    width: 420px;
     height: min-content;
   }
   .merch-card-content {
-    width: 55%;
+    width: auto;
   }
   .merch-card-content-header {
     width: 100%;
   }
   .merch-card-content-header h1 {
-    font-size: 2.5rem;
+    font-size: 1.4rem;
+    margin-top: 0px;
   }
   .merch-card-content-header h3 {
-    font-size: 1.8rem;
-    margin-top: 10px;
+    font-size: 1.2rem;
+    margin: 15px 0px;
   }
   .merch-prod-details-header {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .prod-desc-table td {
-    padding: 12px 10px;
+    padding: 14px 10px;
+  }
+  .prod-desc-table {
+    width: 100%;
   }
 }
+
+/* Form */
+
 .merch-form-wrapper {
   width: 100%;
   max-width: 1350px;
